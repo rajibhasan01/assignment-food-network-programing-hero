@@ -196,3 +196,8 @@ footer p{
     width: 40px;
     margin-right: 35px ;
 } 
+
+.signup-btn:hover{
+    color:black;
+    background-image: linear-gradient(cyan,rgb(134, 184, 34));
+}
