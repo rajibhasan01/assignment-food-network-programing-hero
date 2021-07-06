@@ -178,6 +178,7 @@ footer{
 footer p{
     font-size: small;
     color: rgba(229, 229, 243, 0.746);
+    
 }
 
 
@@ -195,9 +196,38 @@ footer p{
 .icon{
     width: 40px;
     margin-right: 35px ;
+    
 } 
+
 
 .signup-btn:hover{
     color:black;
     background-image: linear-gradient(cyan,rgb(134, 184, 34));
 }
+
+
+
+.link-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+.link-btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+.link-btn:hover span {
+    padding-right: 25px;
+  }
+  
+.link-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
