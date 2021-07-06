@@ -1,0 +1,116 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(95, 91, 91);
+    margin: 0px;
+}
+h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.add-text-color{
+    color:rgb(233, 103, 16) ;
+}
+
+.link-btn{
+    text-decoration: none;
+    padding: 10px 30px ;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #e1b12c,#e84118);
+    font-weight: 700;
+    color: whitesmoke;
+}
+.flexible{
+    display:flex;
+    /* margin-left: 5% ; */
+    margin-bottom: 100px;
+}
+.text-box{
+    margin-top: 15%;
+    margin-left: 5%;
+    width: 40%;
+    
+}
+.image-box{
+    padding-top: 5%;
+    padding-left: 10%;
+    width: 40%;
+    
+
+}
+
+.image{
+    width: 60%;
+    padding:10% 10% 0% 0%;
+    border: none;
+    display: block;
+    
+
+}
+.image-logo{
+    width: 80%;
+    padding:10% 10% 0% 10%;
+}
+.background-add{
+    margin-left: 0px;
+    margin-bottom: 100px;
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.alignment{
+    text-align: center;
+}
+.box-create{
+    margin: 5%;
+    padding: 5px;
+    padding-top: 15px;
+    width: 25%;
+    border: 1px solid rgb(255, 254, 252);
+    text-align: center;
+    box-shadow: 10px 10px 30px 0px rgba(121, 110, 110, 0.274);
+    border-radius: 20px;
+    
+    
+}
+.food-image{
+    width: 90%;
+}
+.social-media-box{
+    width: 30%;
+    margin: 0% 5% 0% 5%;
+    padding: 5px;
+
+}
+.black-heading{
+    font-size: 40px;
+    color: black;
+    margin: 0px;
+    font-family: 'Barlow', sans-serif;
+}
+h3{
+    color: black;
+}
+
+#bordering{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    box-shadow: 10px 10px 30px 0px rgba(121, 110, 110, 0.274);
+    border-radius: 20px;
+
+}
+
+footer{
+    background-color: black;
+    color: rgb(105, 96, 96);
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 8%;
+}
+footer p{
+    font-size: small;
+    color: rgba(229, 229, 243, 0.746);
+}
+
+
+
